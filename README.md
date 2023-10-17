@@ -22,7 +22,9 @@ source venv/bin/activate
 ```
 
 #### Install required packages
+```bash
 python -m pip install -r REQUIREMENTS.txt
+```
 
 #### Get model files
 ```bash
