@@ -52,7 +52,7 @@ python3.7 multi_classifier.py \
 --train_batch_size=8 \
 --learning_rate=2e-5 \
 --num_train_epochs=10.0 \
---output_dir=./output/multi/top/top_multi_10_epochs_2e5_lr_128_max_32_bs_uncased \
+--output_dir=./output/multi/top/top_multi_10_epochs_2e5_lr_128_max_8_bs_uncased \
 --do_lower_case=True \
 --save_checkpoints_steps 1000
 ```
@@ -69,7 +69,7 @@ Breaking down above:
 9. `--train_batch_size=8`: Specifies how many inputs to allow the model to process at a time. NOTE: this value is highly tied to resources
 10. `--learning_rate=2e-5`: Specifies the learning rate (i.e., how much to change the model in response to the estimated error each time the model weights are updated)
 11. `--num_train_epochs=10.0`: Specifies the number of epochs (i.e., number of full passes over all data) for the model
-12. `--output_dir=./output/multi/top/top_multi_10_epochs_2e5_lr_128_max_32_bs_uncased`: Specifies output directory
+12. `--output_dir=./output/multi/top/top_multi_10_epochs_2e5_lr_128_max_32_bs_uncased`: Specifies output directory; note the format of the output folder name, following the above parameters
 13. `--do_lower_case=True`: Specifies if input should be preprocessed to lowercase for the model 
 14. `--save_checkpoints_steps 10`: After how many training iterations a checkpoint should be saved
 
