@@ -10,7 +10,7 @@ Python 3.7+
 #### Clone Repo
 ```bash
 git clone https://github.com/andrewcchu/25422_tls_bert.git
-cd 225422_tls_bert
+cd 25422_tls_bert
 ```
 
 #### Setup Python Virtual Environment
