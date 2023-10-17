@@ -58,7 +58,7 @@ python3.7 multi_classifier.py \
 ```
 
 Breaking down above:
-1. `task_name=cola`: Specifies the pre-trained model to use the [Corpus of Linguistic Acceptability (CoLA)](https://arxiv.org/pdf/1805.12471.pdf) task. For our purposes, this just tells the model to run/train on a classification task
+1. `--task_name=cola`: Specifies the pre-trained model to use the [Corpus of Linguistic Acceptability (CoLA)](https://arxiv.org/pdf/1805.12471.pdf) task. For our purposes, this just tells the model to run/train on a classification task
 2. `--do_train=true`: Specifies to train (i.e., fine-tune since we are using a base model) the base model
 3. `--do_eval=true`: Perform evaluation after fine-tuning to evaluate outcome
 4. `--data_dir=./dataset/top_multi`: Specifies fine-tuning data directory
