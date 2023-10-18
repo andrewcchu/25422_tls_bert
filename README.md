@@ -42,7 +42,7 @@ The data in this repo represents parsed values of the header fields of packets i
 
 Fine-tuning can be run as follows (again, replacing `python3.7` with whatever Python you installed the dependencies above with):
 ```bash
-python3.7 multi_classifier.py \
+python multi_classifier.py \
 --task_name=cola \
 --do_train=true \
 --do_eval=true \
